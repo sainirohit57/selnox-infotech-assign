@@ -45,7 +45,7 @@ const EmployeeList = () => {
 
   return (
     <>
-      <div className="d-flex justify-content-between align-items-center">
+      <div className="d-flex justify-content-between align-items-center flex-wrap gap-3">
         <h2 className="heading-1">Employee List</h2>
         <EmployeeDropdown
           employeeList={employeeList}
